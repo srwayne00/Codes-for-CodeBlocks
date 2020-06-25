@@ -1,7 +1,7 @@
 
 <h1>Codes for CodeBlocks</h1>
 
-<h5>Curso de uma semana (22 a 26 de junho de 2020 ) ministrado pelo Jason Udemy e Monitorado pelo Bruno do projeto<strong> Padawan</strong><h5>
+<h5>Curso de uma semana (22 a 26 de junho de 2020 ) ministrado pelo Jason Fedin da Udemy e Monitorado pelo Bruno Fernandes do projeto<strong> Padawan</strong><h5>
   
 <h5>Todos os codigos desenvolvidos foram armazenadas aqui para ajudar aquele que buscam um luz, uma ideia para o seu codigo.</h5>
 
