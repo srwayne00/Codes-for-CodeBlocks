@@ -1,13 +1,11 @@
 /*
 Autor:Wagner Oliveira
-Proposito: 3� Atividade Monitor - Calculo percentual salario
+Proposito: 3째 Atividade Monitor - Calculo percentual salario
 Data: 25.06.2020
 */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
 int main(){
 
     int cod;
@@ -23,42 +21,61 @@ int main(){
             cargo[0] == "Escriturario";
             printf("Informe seu salario\n ");
             scanf("%f", &salario);
+            if(salario < 0 ){
+                printf("Salario n찾o pode ser negativo");
+            }else{
             percent = salario * 0.50;
             nSalario = salario + percent;
             printf("Cargo: %s - Aumento=R$ %1.2f Salario=R$ %.2f ",cargo ,percent ,nSalario);
-        break;
+        }break;
         case 2:
             cargo [1]== "Secretario";
             printf("Informe seu salario\n ");
             scanf("%f", &salario);
+            if(salario < 0 ){
+                printf("Salario n찾o pode ser negativo");
+            }else{
             percent = salario * 0.35;
             nSalario = salario + percent;
             printf("Cargo: %s - Aumento=R$ %1.2f Salario=R$ %.2f ",cargo, percent ,nSalario);
-        break;
+        }break;
         case 3:
             cargo [2]== "Caixa";
             printf("Informe seu salario\n ");
             scanf("%f", &salario);
+            if(salario < 0 ){
+                printf("Salario n찾o pode ser negativo");
+            }else{
             percent = salario *  0.20;
             nSalario = salario + percent;
             printf("Cargo: %s - Aumento=R$ %1.2f Salario=R$ %.2f ", cargo, percent ,nSalario);
-        break;
+       }break;
         case 4:
             cargo [3]== "Gerente";
             printf("Informe seu salario\n ");
             scanf("%f", &salario);
+            if(salario < 0 ){
+                printf("Salario n찾o pode ser negativo");
+            }else{
             percent = salario *  0.10;
             nSalario = salario + percent;
             printf("Cargo: %s - Aumento=R$ %1.2f Salario=R$ %.2f ",cargo, percent ,nSalario);
-        break;
+        }break;
         case 5:
             cargo [4]== "Diretor";
             printf("Informe seu salario\n ");
             scanf("%f", &salario);
+            if(salario < 0 ){
+                printf("Salario n찾o pode ser negativo");
+            }else{
             percent = 0;
             nSalario = salario + percent;
             printf("Cargo: %s - Aumento=R$ %1.2f Salario=R$ %.2f ",cargo, percent ,salario);
-        break;
+        }break;
+        default:
+            printf("Cargo invalido, escolha entre 1 e 5");
+            break;
     }
 return 0;
 }
+
